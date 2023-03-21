@@ -1,9 +1,6 @@
 # Projet-Dev-2
 Developpment d'une application en C# Dans le cadre d'un projet de groupe
 
-![](vertopal_74c85e0517d945308f4e99bc3a198ca8/media/image1.png){width="6.3in"
-height="1.9241382327209098in"}
-
 > **Projet DEV.2**
 
 **[Objectif]{.underline}**
