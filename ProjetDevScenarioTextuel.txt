@@ -1,0 +1,29 @@
+Nom : Consulter les dépenses courantes
+Objectifs : Consultation et modification de ses dépenses courantes en ligne
+Acteurs :
+	Principaux : Utilisateurs
+	Secondaire : Base de donnée
+Pré-condition : Site fonctionnel, authentification
+
+Scénario principal :
+1- Le système affiche une page de connexion
+2- L'utilisateur s'authentifie
+3- Le système envoie l'utilisateur sur une nouvelle page contenant une liste de toutes les 
+dépenses courantes renseignées
+4- L'utilisateur ajoute des dépenses
+5- Le système enregistre les nouvelles dépenses
+6- L'utilisateur recherche un type de dépense
+7- Le système affiche la dépense correspondante
+8- L'utilisateur affiche graphiquement ses dépenses courantes
+9- Le système affiche un graphique en montrant la place de chaque dépense en fonction du total
+
+Scénario alternatif n°1 :
+2.a L'utilisateur s'authentifie incorrectement
+2.b Le système signal l'erreur et permet à l'utilisateur de réessayer
+2.c Retour à l'étape 1
+
+Scénario alternatif n°2 :
+6.a L'utilisateur fait une recherche qui n'aboutit pas
+6.b Le système signale qu'aucune dépense ne correspond à la requête
+6.c Retour à l'étape 6
+
